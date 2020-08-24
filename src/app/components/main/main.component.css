@@ -1,0 +1,75 @@
+#main-container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#post-container *{
+  background-color: #FFFFFF;
+}
+#right-container *{
+  background-color: #FFFFFF;
+}
+#post-container .post{
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#post-container .post .head-image{
+  width: 100%;
+  min-height: 200px;
+  background-image: url("../../../assets/images/tmp.jpg");
+  background-position: center;
+  position: relative;
+}
+#post-container .post .title{
+  padding: 10px;
+  font-family: 'Crete Round', serif;
+  font-size: 0.9rem;
+}
+#post-container .post .small-information{
+  padding: 10px;
+  font-family: 'Crete Round', serif;
+  display: flex;
+}
+#post-container .post .small-information .date{
+  position: relative;
+}
+#post-container .post .small-information .date span{
+  position: absolute;
+  left: 30px;
+  top: 2px;
+}
+#post-container .post .small-information .author{
+  position: relative;
+  margin-left: 90px;
+}
+#post-container .post .small-information .author span{
+  position: absolute;
+  left: 30px;
+  top: 2px;
+}
+#post-container .post .short-description{
+  padding: 10px;
+  font-family: 'Crete Round', serif;
+}
+#post-container .post .read-more{
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+#post-container .post .read-more a{
+  font-family: 'Crete Round', serif;
+  padding: 15px;
+  border: solid 1px black;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+#post-container .post .read-more a:hover{
+  background-color: crimson;
+  color: #FFFFFF;
+  border: solid 1px white;
+}
