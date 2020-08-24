@@ -73,3 +73,21 @@
   color: #FFFFFF;
   border: solid 1px white;
 }
+/* Right container*/
+#right-container{
+  display: flex;
+  flex-direction: column;
+}
+#right-container .search .search-holder{
+  border: solid 1px black;
+  padding: 10px;
+  display: flex;
+}
+#right-container .search .search-holder input{
+  padding-left: 10px;
+  width: 100%;
+  border: none;
+}
+#right-container .search .search-holder input:focus{
+  outline: none;
+}

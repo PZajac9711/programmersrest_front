@@ -1,0 +1,14 @@
+#nav-bar{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #303030;
+  margin-bottom: 20px;
+}
+#nav-bar *{
+  background-color: #303030;
+  color: #FFFFFF;
+}
+#nav-bar .left-nav h3{
+  font-family: 'Crete Round', serif;
+}
